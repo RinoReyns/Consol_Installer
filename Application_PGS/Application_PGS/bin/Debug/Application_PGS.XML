@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Application_PGS</name>
+    </assembly>
+    <members>
+        <member name="T:Application_PGS.Interface">
+            <summary>
+            Klasa zawierająca funkcję wypisu oraz wczytywania informacji.
+            </summary>
+        </member>
+        <member name="F:Application_PGS.Interface.osoba">
+            <summary>
+            Tworzenie obiektu osoba.
+            </summary>
+        </member>
+        <member name="M:Application_PGS.Interface.Imie">
+             <summary>
+             Funkcja wyświetla zapytanie o imię i odpowiada za wczytanie tego parametru. 
+             </summary>
+             <returns> 
+             Funkcja zwraca wartość, która zapewnia przejście do kolejnego kroku wprowadzania danych.
+            </returns>
+        </member>
+        <member name="M:Application_PGS.Interface.Nazwisko">
+             <summary>
+             Funkcja wyświetla zapytanie o nazwisko i odpowiada za wczytanie tego parametru. 
+             </summary>
+             <returns>  
+             Funkcja zwraca wartość, która zapewnia przejście do kolejnego kroku wprowadzania danych.
+            </returns>
+        </member>
+        <member name="M:Application_PGS.Interface.Adres">
+             <summary>
+             Funkcja wyświetla zapytanie o adres zamieszkania i odpowiada za wczytanie tego parametru. 
+             </summary>
+             <returns>  
+             Funkcja zwraca wartość, która zapewnia przejście do kolejnego kroku wprowadzania danych.
+            </returns>
+        </member>
+        <member name="M:Application_PGS.Interface.Numer">
+             <summary>
+             Funkcja wyświetla zapytanie o numer telefonu i odpowiada za wczytanie tego parametru. 
+             </summary>
+             <returns>  
+             Funkcja zwraca wartość, która zapewnia przejście do kolejnego kroku wprowadzania danych.
+            </returns>
+        </member>
+        <member name="M:Application_PGS.Interface.fPopraw">
+             <summary>
+             Funkcja wyświetla zapytanie o zmiany we wprowadzonych danych.
+             </summary>
+             <returns>  
+             Funkcja zwraca wartość, która ustawia wartość zmiennej "poprawa" na jeden. 
+            </returns>
+        </member>
+        <member name="M:Application_PGS.Interface.Blad">
+            <summary>
+            Funkcja wyświetlan komunikat o błędnie podanym numerze funkcji.
+            </summary>
+        </member>
+        <member name="M:Application_PGS.Interface.Koniec">
+            <summary>
+            Funckja wyświetla końcowe oko, wraz z wprowadzonymi wszystkimi danymi przez gracza, bez możliwości powrotu do poprzednich kroków.
+            </summary>
+        </member>
+        <member name="M:Application_PGS.Interface.sprawdz(System.Int32,System.Int32)">
+            <summary>
+            Funkcja zostaje uaktywniona, kiedy użytkownik wyraził chęć wprowadzenia zmiany i gdy zostanie zmieniona jedna dana.
+            Funkcja  sprawdza wartość parametru "poprawa" i zapewnia brak konieczności uzupełniania wszystkich parametrów od nowa.  
+            </summary>
+            <param name="poprawa">Parametr, który jest ustawiany na wartość jeden, kiedy po raz pierwszy zostaną wprowadzone wszystkie
+            dane przez użytkownika. Jest wykorzystywany, podczas zmiany wybranego danej użytkownika. Umożliwia zmianę tylko jednej danej bez 
+            konieczność zmiany pozostałych.
+            </param>
+            <param name="option">Parametr odpowiada poruszanie się pomiędzy okienkami wprowadzania danych.</param>
+            <returns>Funkcja zwraca wartość parametru option, który jest wykorzystywany do przemieszczania się między oknami. </returns>
+        </member>
+        <member name="M:Application_PGS.Interface.Catching_error(System.Int32)">
+             <summary>
+              Funkcja "wyłapuje" błędnie wprowadzony parametr przez użytkownika. Uniemożliwa również wybrania opcji "6", 
+            która formalnie istnieje w switchu, ale użytkownik nie może sie do niej odwołać.  
+             </summary>
+             <param name="option">Parametr odpowiada za poruszanie się pomiędzy okienkami wprowadzania danych. </param>
+             <returns> Funkcja zwraca wartość parametru option, który jest wykorzystywany do przemieszczania się między oknami.</returns>
+             <exception cref="T:System.ArgumentException">6</exception>
+        </member>
+        <member name="T:Application_PGS.Person">
+            <summary>
+            Klasa, której obiek może przechowywać dane o wpisanej osobie.
+            </summary>
+        </member>
+        <member name="P:Application_PGS.Person.Imie">
+            <summary>
+            Wczytywanie lub ustawianie imienia.
+            </summary>
+            <value>
+            Imie
+            </value>
+        </member>
+        <member name="P:Application_PGS.Person.Nazwisko">
+            <summary>
+            Wczytywanie lub ustawianie nazwiska.
+            </summary>
+            <value>
+            Nazwisko
+            </value>
+        </member>
+        <member name="P:Application_PGS.Person.Adres">
+            <summary>
+            Wczytywanie lub ustawianie adresu zamieszkania.
+            </summary>
+            <value>
+            Adres
+            </value>
+        </member>
+        <member name="P:Application_PGS.Person.Telefon">
+            <summary>
+            Wczytywanie lub ustawianie numeru telefonu.
+            </summary>
+            <value>
+             Telefon
+            </value>
+        </member>
+        <member name="T:Application_PGS.Program">
+            <summary>
+            Klasa, w której znajduje się funkcja Main.
+            </summary>
+        </member>
+        <member name="M:Application_PGS.Program.Main(System.String[])">
+            <summary>
+            Główna pętla programu
+            </summary>
+            <param name="args">The arguments.</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,14 @@
+c:\users\rino\documents\visual studio 2015\Projects\Application_PGS\Application_PGS\bin\Debug\Application_PGS.exe.config
+c:\users\rino\documents\visual studio 2015\Projects\Application_PGS\Application_PGS\bin\Debug\Application_PGS.exe
+c:\users\rino\documents\visual studio 2015\Projects\Application_PGS\Application_PGS\bin\Debug\Application_PGS.pdb
+c:\users\rino\documents\visual studio 2015\Projects\Application_PGS\Application_PGS\obj\Debug\Application_PGS.csprojResolveAssemblyReference.cache
+c:\users\rino\documents\visual studio 2015\Projects\Application_PGS\Application_PGS\obj\Debug\Application_PGS.exe
+c:\users\rino\documents\visual studio 2015\Projects\Application_PGS\Application_PGS\obj\Debug\Application_PGS.pdb
+c:\users\rino\documents\visual studio 2015\Projects\Application_PGS\Application_PGS\bin\Debug\Application_PGS.XML
+C:\Users\Rino Reyns\Desktop\Wykłady\C#\Application_PGS\Application_PGS\bin\Debug\Application_PGS.exe.config
+C:\Users\Rino Reyns\Desktop\Wykłady\C#\Application_PGS\Application_PGS\bin\Debug\Application_PGS.XML
+C:\Users\Rino Reyns\Desktop\Wykłady\C#\Application_PGS\Application_PGS\obj\Debug\Application_PGS.exe
+C:\Users\Rino Reyns\Desktop\Wykłady\C#\Application_PGS\Application_PGS\obj\Debug\Application_PGS.pdb
+C:\Users\Rino Reyns\Desktop\Wykłady\C#\Application_PGS\Application_PGS\bin\Debug\Application_PGS.exe
+C:\Users\Rino Reyns\Desktop\Wykłady\C#\Application_PGS\Application_PGS\bin\Debug\Application_PGS.pdb
+C:\Users\Rino Reyns\Desktop\Wykłady\C#\Application_PGS\Application_PGS\obj\Debug\Application_PGS.csprojResolveAssemblyReference.cache
